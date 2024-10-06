@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d8ppt3xo*)9i79i&6xweah+gk%-jxy(cttctv4f*uzu_^m1%!a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wandabi.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
