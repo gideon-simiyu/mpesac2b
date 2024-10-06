@@ -1,0 +1,97 @@
+{% extends 'auth-base.html' %}
+
+{%  block title %} Login {% endblock %}
+
+{%  block content %}
+            <form method="post" class="card-body mt-1">
+            {% csrf_token %}
+              <h4 class="mb-1">Welcome to Mpesa C2B! 👋🏻</h4>
+              <p class="mb-5">Make your app management easy and fun!</p>
+
+                <div class="form-floating form-floating-outline mb-5">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
+                  <label for="email">Email</label>
+                </div>
+                
+                
+                <div class="form-floating form-floating-outline mb-5">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Enter your first name"
+                    autofocus />
+                  <label for="firstname">First name</label>
+                </div>
+                
+                
+                <div class="form-floating form-floating-outline mb-5">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Enter your last name"
+                    autofocus />
+                  <label for="lastname">Last name</label>
+                </div>
+                
+                <div class="mb-5 form-password-toggle">
+                  <div class="input-group input-group-merge">
+                    <div class="form-floating form-floating-outline">
+                      <input
+                        type="password"
+                        id="password"
+                        class="form-control"
+                        name="password"
+                        placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                        aria-describedby="password" />
+                      <label for="password">Password</label>
+                    </div>
+                    <span id="show-password" class="input-group-text cursor-pointer"><i class="ri-eye-off-line ri-20px"></i></span>
+                  </div>
+                </div>
+
+                <div class="mb-5 py-2">
+                  <div class="form-check mb-0">
+                    <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms" />
+                    <label class="form-check-label" for="terms-conditions">
+                      I agree to
+                      <a href="javascript:void(0);">privacy policy & terms</a>
+                    </label>
+                  </div>
+                </div>
+                <button class="btn btn-primary d-grid w-100 mb-5">Sign up</button>
+
+              <p class="text-center mb-5">
+                <span>Already have an account?</span>
+                <a href="{% url 'login' %}">
+                  <span>Sign in instead</span>
+                </a>
+              </p>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    document.getElementById('remember-me').addEventListener('click', () => {
+                        const password = document.getElementById('password');
+                        if (password.type === "password") {
+                            password.type = "text";
+                        }else{
+                            password.type = "password";
+                        }
+                    });
+                    
+                    
+                    document.getElementById('show-password').addEventListener('click', () => {
+                        const password = document.getElementById('password');
+                        if (password.type === "password") {
+                            password.type = "text";
+                        }else{
+                            password.type = "password";
+                        }
+                    });
+                });
+            </script>
+            </form>
+          {% endblock %}
