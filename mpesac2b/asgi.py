@@ -1,5 +1,5 @@
 """
-ASGI config for MpesaC2B project.
+ASGI config for mpesac2b project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MpesaC2B.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mpesac2b.settings')
 
 application = get_asgi_application()

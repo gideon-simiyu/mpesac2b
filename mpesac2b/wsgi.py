@@ -1,5 +1,5 @@
 """
-WSGI config for MpesaC2B project.
+WSGI config for mpesac2b project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MpesaC2B.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mpesac2b.settings')
 
 application = get_wsgi_application()
