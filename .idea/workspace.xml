@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc90ce4-f76b-4c67-be84-648483dd8c99" name="Changes" comment="batman">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/transaction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MpesaC2B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MpesaC2B.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpesac2b/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/transactions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="adc90ce4-f76b-4c67-be84-648483dd8c99" name="Changes" comment="batman" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +130,7 @@
       <workItem from="1728222131649" duration="207000" />
       <workItem from="1728222343462" duration="10944000" />
       <workItem from="1728236432564" duration="1417000" />
-      <workItem from="1728313240513" duration="13503000" />
+      <workItem from="1728313240513" duration="13956000" />
     </task>
     <task id="LOCAL-00001" summary="batman">
       <option name="closed" value="true" />

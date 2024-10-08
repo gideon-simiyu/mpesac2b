@@ -17,7 +17,7 @@ def register_url(consumer_key, consumer_secret, account_id, shortcode):
         print("Failed to get access token:", response.status_code, response.text)
         return {"error": "Failed to get access token"}
 
-    access_token = response.get('access_token')
+    access_token = response.json().get('access_token')
     print("Access Token:", access_token)
 
     if not access_token:
@@ -29,7 +29,7 @@ def register_url(consumer_key, consumer_secret, account_id, shortcode):
         'Authorization': f'Bearer {access_token}',
         'Content-Type': 'application/json'
     }
-    register_url_endpoint = f'https://{environment}.safaricom.co.ke/mpesa/c2b/v1/registerurl'
+    register_url_endpoint = f'https://{environment}.safaricom.co.ke/mpesa/c2b/v2/registerurl'
     request_data = {
         "ShortCode": shortcode,
         "ResponseType": "Completed",
