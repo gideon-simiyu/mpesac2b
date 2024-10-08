@@ -8,6 +8,7 @@ class Account(models.Model):
     email = models.CharField(max_length=255)
     paybill = models.CharField(max_length=50)
     api_key = models.CharField(max_length=255)
+    is_active = models.BooleanField(default=True)
     api_secret = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -34,6 +35,8 @@ class Transaction(models.Model):
     first_name = models.CharField(max_length=30)
     middle_name = models.CharField(max_length=30, blank=True, null=True)
     last_name = models.CharField(max_length=30)
+    created_at = models.DateTimeField(auto_now_add=True)
+    read = models.BooleanField(default=False)
 
     def __str__(self):
         return f'{self.first_name} {self.last_name} - {self.trans_amount}'

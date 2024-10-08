@@ -5,117 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adc90ce4-f76b-4c67-be84-648483dd8c99" name="Changes" comment="batman">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/avatars/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/backgrounds/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/elements/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/asana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/aws.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/behance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/mailchimp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/slack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/brands/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/misc/aviato.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/misc/bitbank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/misc/triangle-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/misc/zipcar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/american-bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/citi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/digital-ocean.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/gumroad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/mastercard-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/icons/payments/stripes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/auth-basic-mask-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/misc-mask-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/misc-under-maintenance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/tree-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/illustrations/trophy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/layouts/layout-container-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/layouts/layout-fluid-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/layouts/layout-without-menu-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/layouts/layout-without-navbar-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/dashboards-analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/extended-ui-perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/form-basic-inputs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/pages-account-settings-account.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/ui-modals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/ui-popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/ui-toasts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/pages/page-account-settings.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/pages/page-auth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/pages/page-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/pages/page-misc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/css/theme-default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/fonts/remixicon/remixicon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/js/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/apex-charts/apex-charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/apex-charts/apexcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/highlight/highlight-github.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/highlight/highlight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/highlight/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/masonry/masonry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/node-waves/node-waves.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/node-waves/node-waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/vendor/libs/popper/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/auth-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/transaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MpesaC2B.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MpesaC2B.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MpesaC2B/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MpesaC2B/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MpesaC2B/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MpesaC2B/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MpesaC2B/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpesac2b/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpesac2b/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/transactions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,25 +62,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.MpesaC2B.executor&quot;: &quot;Run&quot;,
-    &quot;Django Server.mpesac2b.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.MpesaC2B.executor": "Run",
+    "Django Server.mpesac2b.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/GIDEON SIMIYU/PycharmProjects/MpesaC2B",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="mpesac2b" type="Python.DjangoServer" factoryName="Django server">
       <module name="MpesaC2B" />
@@ -239,6 +144,8 @@
       <updated>1728222129173</updated>
       <workItem from="1728222131649" duration="207000" />
       <workItem from="1728222343462" duration="10944000" />
+      <workItem from="1728236432564" duration="1417000" />
+      <workItem from="1728313240513" duration="13503000" />
     </task>
     <task id="LOCAL-00001" summary="batman">
       <option name="closed" value="true" />
@@ -259,7 +166,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

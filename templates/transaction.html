@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %} Transactions {% endblock %}
+{% block content %}
+
+    <h5 class="card-header">Transactions</h5>
+    <div class="table-responsive text-nowrap">
+        <table id="dataTable" class="table">
+            <thead>
+                <tr>
+                    <th>Client</th>
+                    <th>Transaction Type</th>
+                    <th>Transaction ID</th>
+                    <th>Amount</th>
+                    <th>Short Code</th>
+                    <th>Bill Reference</th>
+                    <th>Invoice Number</th>
+                    <th>Created On</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                {% for transaction in page_obj %}
+                    <tr>
+                        <td>
+                            <div class="d-flex flex-column">
+                                <p>{{ transaction.account.username }}</p>
+                                <p>{{ transaction.account.email }}</p>
+                            </div>
+                        </td>
+                        <td>{{ transaction.transaction_type }}</td>
+                        <td>{{ transaction.transaction_id }}</td>
+                        <td>{{ transaction.transaction_amount }}</td>
+                        <td>{{ transaction.business_short_code }}</td>
+                        <td>{{ transaction.bill_ref_number }}</td>
+                        <td>{{ transaction.invoice_number }}</td>
+                        <td>{{ transaction.created_at|date:"Y-m-d H:i:s" }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function (){
+        new DataTable("#dataTable", {
+            "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+        });
+    });
+</script>
+
+{% endblock %}

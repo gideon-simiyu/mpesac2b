@@ -1,5 +1,75 @@
 {% extends 'base.html' %}
 {% block title %} Add Account {% endblock %}
 {% block content %}
+     <form method="post" class="col-11 col-md-9 col-lg-5 col-xl-4 mx-auto mt-5">
+                {% csrf_token %}
+                <div class="modal-body">
 
+
+                    <div class="form-floating form-floating-outline mb-5">
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="username"
+                                name="username"
+                                placeholder="Enter client name"
+                                value="{{ username }}"
+                                autofocus/>
+                        <label for="username">Client Name</label>
+                    </div>
+                    <div class="form-floating form-floating-outline mb-5">
+                        <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="Enter client email"
+                                value="{{ email }}"
+                                autofocus/>
+                        <label for="email">Client Email</label>
+                    </div>
+
+                    <div class="form-floating form-floating-outline mb-5">
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="shortcode"
+                                name="shortcode"
+                                placeholder="Enter shortcode"
+                                value="{{ shortcode }}"
+                                autofocus/>
+                        <label for="shortcode">Shortcode</label>
+                    </div>
+
+                    <div class="form-floating form-floating-outline mb-5">
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="api_key"
+                                name="api_key"
+                                placeholder="Enter api key"
+                                value="{{ api_key }}"
+                                autofocus/>
+                        <label for="api_key">Api Key</label>
+                    </div>
+
+                    <div class="form-floating form-floating-outline mb-5">
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="api_secret"
+                                name="api_secret"
+                                placeholder="Enter api secret"
+                                value="{{ api_secret }}"
+                                autofocus/>
+                        <label for="api_secret">Api Secret</label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
 {% endblock %}
