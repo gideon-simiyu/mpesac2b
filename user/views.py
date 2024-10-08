@@ -201,3 +201,36 @@ class TransactionView(View):
             print("Error saving transaction:", e)
             return JsonResponse({'error': 'An error occurred'}, status=500)
 
+
+def get_transactions(request, account_id):
+    account = Account.objects.get(uid=account_id)
+
+    transactions = Transaction.objects.filter(account=account, read=False).order_by('-created_at')
+
+    transactions_data = [
+        {
+            "transaction_type": transaction.transaction_type,
+            "transaction_id": transaction.transaction_id,
+            "transaction_time": transaction.transaction_time.strftime('%Y-%m-%d %H:%M:%S'),
+            "transaction_amount": str(transaction.transaction_amount),
+            "business_short_code": transaction.business_short_code,
+            "bill_ref_number": transaction.bill_ref_number,
+            "invoice_number": transaction.invoice_number,
+            "org_account_balance": str(transaction.org_account_balance) if transaction.org_account_balance else None,
+            "third_party_trans_id": transaction.third_party_trans_id,
+            "msisdn": transaction.msisdn,
+            "first_name": transaction.first_name,
+            "middle_name": transaction.middle_name,
+            "last_name": transaction.last_name,
+        }
+        for transaction in transactions
+    ]
+
+    # Convert to JSON response
+    data = {
+        "transactions": transactions_data,
+    }
+
+    transactions.update(read=True)
+
+    return JsonResponse(data)
